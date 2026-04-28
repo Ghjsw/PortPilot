@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001001 /* PortPilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001001 /* PortPilotApp.swift */; };
+		A10001002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001002 /* AppDelegate.swift */; };
+		A10001003 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001003 /* StatusBarController.swift */; };
+		A10001004 /* PortInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001004 /* PortInfo.swift */; };
+		A10001005 /* PortGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001005 /* PortGroup.swift */; };
+		A10001006 /* PortScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001006 /* PortScanner.swift */; };
+		A10001007 /* ProcessKiller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001007 /* ProcessKiller.swift */; };
+		A10001008 /* PortGroupClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001008 /* PortGroupClassifier.swift */; };
+		A10001009 /* PortListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001009 /* PortListViewModel.swift */; };
+		A10001010 /* PortListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001010 /* PortListView.swift */; };
+		A10001011 /* PortRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001011 /* PortRowView.swift */; };
+		A10001012 /* PortGroupHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001012 /* PortGroupHeaderView.swift */; };
+		A10001013 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001013 /* SearchBarView.swift */; };
+		A10001014 /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001014 /* BottomBarView.swift */; };
+		A10001015 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001015 /* SettingsView.swift */; };
+		A10001016 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001016 /* Constants.swift */; };
+		A10001017 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001017 /* Extensions.swift */; };
+		A10001018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20001018 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A30001000 /* PortPilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortPilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20001001 /* PortPilotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortPilotApp.swift; sourceTree = "<group>"; };
+		A20001002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20001003 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		A20001004 /* PortInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortInfo.swift; sourceTree = "<group>"; };
+		A20001005 /* PortGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortGroup.swift; sourceTree = "<group>"; };
+		A20001006 /* PortScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortScanner.swift; sourceTree = "<group>"; };
+		A20001007 /* ProcessKiller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessKiller.swift; sourceTree = "<group>"; };
+		A20001008 /* PortGroupClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortGroupClassifier.swift; sourceTree = "<group>"; };
+		A20001009 /* PortListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortListViewModel.swift; sourceTree = "<group>"; };
+		A20001010 /* PortListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortListView.swift; sourceTree = "<group>"; };
+		A20001011 /* PortRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortRowView.swift; sourceTree = "<group>"; };
+		A20001012 /* PortGroupHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortGroupHeaderView.swift; sourceTree = "<group>"; };
+		A20001013 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		A20001014 /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		A20001015 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20001016 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A20001017 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A20001018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20001019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20001020 /* PortPilot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PortPilot.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40001000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50001000 = {
+			isa = PBXGroup;
+			children = (
+				A50001001 /* PortPilot */,
+				A50001003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50001001 /* PortPilot */ = {
+			isa = PBXGroup;
+			children = (
+				A50001010 /* App */,
+				A50001011 /* StatusBar */,
+				A50001012 /* Models */,
+				A50001013 /* Services */,
+				A50001014 /* ViewModels */,
+				A50001015 /* Views */,
+				A50001016 /* Utilities */,
+				A50001017 /* Resources */,
+			);
+			path = PortPilot;
+			sourceTree = "<group>";
+		};
+		A50001003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30001000 /* PortPilot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50001010 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A20001001 /* PortPilotApp.swift */,
+				A20001002 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A50001011 /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				A20001003 /* StatusBarController.swift */,
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
+		A50001012 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20001004 /* PortInfo.swift */,
+				A20001005 /* PortGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50001013 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A20001006 /* PortScanner.swift */,
+				A20001007 /* ProcessKiller.swift */,
+				A20001008 /* PortGroupClassifier.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A50001014 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A20001009 /* PortListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A50001015 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20001010 /* PortListView.swift */,
+				A20001011 /* PortRowView.swift */,
+				A20001012 /* PortGroupHeaderView.swift */,
+				A20001013 /* SearchBarView.swift */,
+				A20001014 /* BottomBarView.swift */,
+				A20001015 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A50001016 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A20001016 /* Constants.swift */,
+				A20001017 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A50001017 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A20001018 /* Assets.xcassets */,
+				A20001019 /* Info.plist */,
+				A20001020 /* PortPilot.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60001000 /* PortPilot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70001003 /* Build configuration list for PBXNativeTarget "PortPilot" */;
+			buildPhases = (
+				A40001001 /* Sources */,
+				A40001000 /* Frameworks */,
+				A40001002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortPilot;
+			productName = PortPilot;
+			productReference = A30001000 /* PortPilot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80001000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A60001000 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = A70001000 /* Build configuration list for PBXProject "PortPilot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50001000;
+			productRefGroup = A50001003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60001000 /* PortPilot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40001002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40001001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001001 /* PortPilotApp.swift in Sources */,
+				A10001002 /* AppDelegate.swift in Sources */,
+				A10001003 /* StatusBarController.swift in Sources */,
+				A10001004 /* PortInfo.swift in Sources */,
+				A10001005 /* PortGroup.swift in Sources */,
+				A10001006 /* PortScanner.swift in Sources */,
+				A10001007 /* ProcessKiller.swift in Sources */,
+				A10001008 /* PortGroupClassifier.swift in Sources */,
+				A10001009 /* PortListViewModel.swift in Sources */,
+				A10001010 /* PortListView.swift in Sources */,
+				A10001011 /* PortRowView.swift in Sources */,
+				A10001012 /* PortGroupHeaderView.swift in Sources */,
+				A10001013 /* SearchBarView.swift in Sources */,
+				A10001014 /* BottomBarView.swift in Sources */,
+				A10001015 /* SettingsView.swift in Sources */,
+				A10001016 /* Constants.swift in Sources */,
+				A10001017 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A70001001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A70001002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A70001004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PortPilot/Resources/PortPilot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PortPilot/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portpilot.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A70001005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PortPilot/Resources/PortPilot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PortPilot/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"inherited",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portpilot.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70001000 /* Build configuration list for PBXProject "PortPilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70001001 /* Debug */,
+				A70001002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70001003 /* Build configuration list for PBXNativeTarget "PortPilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70001004 /* Debug */,
+				A70001005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80001000 /* Project object */;
+}
