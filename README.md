@@ -40,7 +40,7 @@ Download the latest `PortPilot.zip` from [Releases](../../releases), unzip, and 
 ### Build from Source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/PortPilot.git
+git clone https://github.com/Ghjsw/PortPilot.git
 cd PortPilot
 xcodebuild -project PortPilot.xcodeproj -scheme PortPilot \
     -configuration Release \
