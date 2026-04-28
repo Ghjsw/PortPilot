@@ -4,7 +4,7 @@
 
 A lightweight macOS menu bar app for managing TCP listening ports. Monitor, search, and kill processes — all from your status bar.
 
-<img src="image.png" width="128" height="128" alt="PortPilot Icon">
+![alt text](image.png)
 
 ## Features
 

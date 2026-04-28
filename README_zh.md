@@ -4,7 +4,7 @@
 
 一款轻量级 macOS 菜单栏应用，用于管理 TCP 监听端口。监控、搜索、终止进程——一切尽在状态栏中完成。
 
-<img src="image.png" width="128" height="128" alt="PortPilot 图标">
+![alt text](image.png)
 
 ## 功能特性
 
@@ -54,23 +54,23 @@ xcodebuild -project PortPilot.xcodeproj -scheme PortPilot \
 
 ### 键盘快捷键
 
-| 快捷键  | 操作           |
-| ------- | -------------- |
-| `⌘R`    | 刷新端口列表   |
-| `⌘K`    | 终止所有进程   |
-| `⌘,`    | 打开设置       |
-| `⌘Q`    | 退出 PortPilot |
+| 快捷键 | 操作           |
+| ------ | -------------- |
+| `⌘R`   | 刷新端口列表   |
+| `⌘K`   | 终止所有进程   |
+| `⌘,`   | 打开设置       |
+| `⌘Q`   | 退出 PortPilot |
 
 ### 端口分组
 
-| 分组               | 说明                                              |
-| ------------------ | ------------------------------------------------- |
-| Cloudflare 隧道    | `cloudflared` 进程                                |
-| K8s 端口转发       | `kubectl` 进程                                    |
-| Docker             | `docker`、`docker-proxy`、`containerd`            |
-| 本地开发           | `node`、`python`、`ruby`、`java`、`nginx` 等      |
-| 系统               | 系统进程和知名端口（22、80、443...）              |
-| 其他               | 以上未涵盖的进程                                  |
+| 分组            | 说明                                         |
+| --------------- | -------------------------------------------- |
+| Cloudflare 隧道 | `cloudflared` 进程                           |
+| K8s 端口转发    | `kubectl` 进程                               |
+| Docker          | `docker`、`docker-proxy`、`containerd`       |
+| 本地开发        | `node`、`python`、`ruby`、`java`、`nginx` 等 |
+| 系统            | 系统进程和知名端口（22、80、443...）         |
+| 其他            | 以上未涵盖的进程                             |
 
 ## 配置
 
