@@ -1,12 +1,10 @@
 # PortPilot
 
+**English** | [中文](README_zh.md)
+
 A lightweight macOS menu bar app for managing TCP listening ports. Monitor, search, and kill processes — all from your status bar.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/macOS-12%2B-blue" />
-  <img src="https://img.shields.io/badge/Universal-Binary-green" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow" />
-</p>
+<img src="image.png" width="128" height="128" alt="PortPilot Icon">
 
 ## Features
 
@@ -22,10 +20,6 @@ A lightweight macOS menu bar app for managing TCP listening ports. Monitor, sear
 - **Universal Binary** — Native support for both Intel (x86_64) and Apple Silicon (arm64)
 - **Lightweight** — ~1MB, minimal CPU & memory footprint
 
-## Screenshots
-
-*Coming soon*
-
 ## Requirements
 
 - macOS 12.0 (Monterey) or later
@@ -35,7 +29,7 @@ A lightweight macOS menu bar app for managing TCP listening ports. Monitor, sear
 
 ### Download Release
 
-Download the latest `PortPilot.zip` from [Releases](../../releases), unzip, and drag `PortPilot.app` to your Applications folder.
+Download the latest `PortPilot.dmg` from [Releases](../../releases), open it, and drag `PortPilot.app` to your Applications folder.
 
 ### Build from Source
 
@@ -60,23 +54,23 @@ The built app will be in `~/Library/Developer/Xcode/DerivedData/PortPilot-*/Buil
 
 ### Keyboard Shortcuts
 
-| Shortcut | Action |
-|----------|--------|
-| `⌘R` | Refresh port list |
-| `⌘K` | Kill all listed processes |
-| `⌘,` | Open settings |
-| `⌘Q` | Quit PortPilot |
+| Shortcut | Action                    |
+| -------- | ------------------------- |
+| `⌘R`     | Refresh port list         |
+| `⌘K`     | Kill all listed processes |
+| `⌘,`     | Open settings             |
+| `⌘Q`     | Quit PortPilot            |
 
 ### Port Groups
 
-| Group | Description |
-|-------|-------------|
-| Cloudflare Tunnels | `cloudflared` processes |
-| K8s Port Forward | `kubectl` processes |
-| Docker | `docker`, `docker-proxy`, `containerd` |
-| Local Dev | `node`, `python`, `ruby`, `java`, `nginx`, etc. |
-| System | System processes and well-known ports (22, 80, 443...) |
-| Other | Everything else |
+| Group              | Description                                            |
+| ------------------ | ------------------------------------------------------ |
+| Cloudflare Tunnels | `cloudflared` processes                                |
+| K8s Port Forward   | `kubectl` processes                                    |
+| Docker             | `docker`, `docker-proxy`, `containerd`                 |
+| Local Dev          | `node`, `python`, `ruby`, `java`, `nginx`, etc.        |
+| System             | System processes and well-known ports (22, 80, 443...) |
+| Other              | Everything else                                        |
 
 ## Configuration
 
